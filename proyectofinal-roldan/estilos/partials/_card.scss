@@ -1,0 +1,26 @@
+.card{
+    background-color: $maincolor;
+    display:inline-flex;
+    position: relative;
+    left: 10%;
+    .btn{
+      background-color: $secondarycolor;
+        border-color: $bordercolor;
+      }
+      .btn:hover{
+          background-color: $btnhover;
+          border-color: $secondarycolor;
+        }
+        .card-title{
+          color: rgb(200, 255, 0);
+        }
+        .card-title:hover{
+          color: aqua;
+        }
+        .card-text{
+          color: $secondarycolor;
+        }
+        .card-text:hover{
+          color: $ultimatecolor;
+        }
+}

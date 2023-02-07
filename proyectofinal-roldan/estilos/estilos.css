@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+* ::-moz-selection {
+  background-color: black;
+  color: brown;
+}
+* ::selection {
+  background-color: black;
+  color: brown;
+}
+
+.hero-form {
+  background-image: url(../fondo/pexels-walid-ahmad-1509582.jpg);
+}
+
+.card {
+  background-color: orange;
+  display: inline-flex;
+  position: relative;
+  left: 10%;
+}
+.card .btn {
+  background-color: brown;
+  border-color: wheat;
+}
+.card .btn:hover {
+  background-color: rgb(174, 174, 30);
+  border-color: brown;
+}
+.card .card-title {
+  color: rgb(200, 255, 0);
+}
+.card .card-title:hover {
+  color: aqua;
+}
+.card .card-text {
+  color: brown;
+}
+.card .card-text:hover {
+  color: rgb(200, 255, 0);
+}
+
+.hero-form {
+  background-image: url(./fondo/pexels-walid-ahmad-1509582.jpg);
+}
+
+.navbar {
+  background-color: orange;
+  margin: 4px;
+}
+
+.btn-foot {
+  position: relative;
+  left: 40%;
+  height: 3rem;
+  width: 20rem;
+  background-color: orange;
+}
+
+.btn-foot2 {
+  background-color: orange;
+}
+
+.form-group {
+  background-color: orange;
+}
+
+.container-fluid {
+  background-color: orange;
+  padding: auto;
+  margin: 5px;
+  border-radius: 5%;
+}
+
+.col {
+  border: solid 1px wheat;
+  background-color: gray;
+}/*# sourceMappingURL=estilos.css.map */

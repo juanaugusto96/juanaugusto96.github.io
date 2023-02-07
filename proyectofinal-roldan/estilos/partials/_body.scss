@@ -1,0 +1,36 @@
+.hero-form{
+    background-image: url(./fondo/pexels-walid-ahmad-1509582.jpg);
+    }
+    
+    .navbar{
+      background-color: $maincolor;
+      margin: 4px;
+    }
+
+    
+    .btn-foot{
+      position: relative;
+      left: 40%;
+      height: 3rem;
+      width: 20rem;
+      background-color: $maincolor;
+    }
+
+
+    .btn-foot2{
+      background-color:$maincolor ;
+     
+    }
+    .form-group{
+      background-color: $maincolor;
+    }
+    .container-fluid{
+      background-color: $maincolor;
+      padding: auto;
+      margin: 5px;
+      border-radius: 5%;
+    }
+    .col{
+      border:solid 1px $bordercolor;
+      background-color: gray;
+    }
